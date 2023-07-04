@@ -1,0 +1,13 @@
+<sly data-sly-use.categories="com.virtusa.newsportal.core.models.CategoriesModel" />
+
+<div class="sidebar-widget">
+	<h2 class="sw-title">${properties.title}</h2>
+	<div class="category">
+		<ul data-sly-list.key="${categories.tagsData}">
+			<li><a href="#">${key}</a><span>(${categories.tagsData[key]})</span></li>
+		</ul>
+	</div>
+</div>
+
+
+

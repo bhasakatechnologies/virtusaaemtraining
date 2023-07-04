@@ -1,0 +1,20 @@
+{
+	"article-details":{
+		"articleImage": "/content/dam/newsportal/asset.jpg",
+		"articleTitle": "Jailer Movie Trailer",
+		"articleExpiry": "Sat June 27 2023 00:00:00 GMT+0530",
+		"articleStatus": "true",
+		"articleDesc": "Jailer Movie trailer desc...",
+		"articleTags": "wknd-shared:activity",
+		"sling:resourceType": "newsportal/components/article-details"	
+	},
+	"article-details-with-expiry":{
+		"articleImage": "/content/dam/newsportal/asset.jpg",
+		"articleTitle": "Jailer Movie Trailer",
+		"articleExpiry": "Sat May 27 2023 00:00:00 GMT+0530",
+		"articleStatus": "true",
+		"articleDesc": "Jailer Movie trailer desc...",
+		"articleTags": "wknd-shared:activity",
+		"sling:resourceType": "newsportal/components/article-details"	
+	}
+}

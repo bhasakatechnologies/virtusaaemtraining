@@ -1,0 +1,10 @@
+<sly data-sly-use.articleModel="com.virtusa.newsportal.core.models.ArticleDetailsModel" />
+
+<div class="sn-img">
+       <img src="${properties.fileReference}" />
+ </div>
+<div class="sn-content">
+	 <h1 class="sn-title">${articleModel.articleTitle}</h1>
+	${articleModel.articleDesc @context='html'}
+</div>
+

@@ -1,0 +1,4 @@
+// Configuration created by Apache Sling JCR Installer
+{
+  "articleRestAPI":"https://www.gorest.co.in/public/v2/posts"
+}

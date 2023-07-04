@@ -1,0 +1,16 @@
+<sly data-sly-use.inCategoryModel="com.virtusa.newsportal.core.models.InThisCategoryModel" />
+
+
+<div class="sidebar-widget">
+	<h2 class="sw-title">${properties.title}</h2>
+	<div class="news-list" data-sly-list.articleDetails="${inCategoryModel.categoryArticles}">
+		<div class="nl-item">
+			<div class="nl-img">
+				<img src="${articleDetails.fileReference}" />
+			</div>
+			<div class="nl-title">
+				<a href="">${articleDetails.articleTitle}</a>
+			</div>
+		</div>
+	</div>
+</div>
